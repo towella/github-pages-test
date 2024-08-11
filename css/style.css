@@ -17,6 +17,34 @@ html {
   line-height: 1.4;
 }
 
+h1 {
+  font-family: "arial", serif;
+  text-align: center;
+}
+
+button {
+  border-radius: 20px;
+  margin: auto;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
