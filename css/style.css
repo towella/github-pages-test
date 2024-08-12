@@ -17,23 +17,36 @@ html {
   line-height: 1.4;
 }
 
-h1 {
-  font-family: "arial", serif;
+
+body {
+  overflow: hidden; /* hide scroll bars */
   text-align: center;
 }
 
-button {
-  border-radius: 20px;
-  margin: auto;
-  padding: 10px 20px;
-  display: flex;
-  justify-content: center;
-  font-weight: bold;
-  font-size: 20px;
+
+h1 {
+  font-family: "arial", serif;
 }
 
-a {
+
+button {
   text-decoration: none;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+
+canvas {
+  cursor: none;
+  margin-top: 20px;
+  width: fit-content;
+  height: fit-content;
 }
 
 
